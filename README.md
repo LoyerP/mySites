@@ -1,2 +1,2 @@
 # mySites
-Site public à mon sujet
+Site public présentatoir.
