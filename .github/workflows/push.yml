@@ -1,0 +1,13 @@
+name: Push commit to server
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  Commit:
+    runs-on: self-hosted
+    steps:
+    - name: Pull change from GitHub
+      run: |
+        cd /var/www/philippeloyer/
+        git pull
