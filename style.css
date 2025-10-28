@@ -5,3 +5,18 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+nav{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	view-transition-name: highlight;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
