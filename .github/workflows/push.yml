@@ -9,5 +9,5 @@ jobs:
     steps:
     - name: Pull change from GitHub
       run: |
-        cd /var/www/philippeloyer/
+        cd /var/www/mySites/
         git pull
