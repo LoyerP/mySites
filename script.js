@@ -22,4 +22,3 @@ navbar.addEventListener('click', async  function (event) {
   
   document.startViewTransition(() => setActiveElement(event.target));
 });
-
