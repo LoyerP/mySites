@@ -10,4 +10,4 @@ jobs:
     - name: Pull change from GitHub
       run: |
         cd /var/www/mySites/
-        git reset --hard origin/main
+        git pull
