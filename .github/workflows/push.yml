@@ -10,4 +10,5 @@ jobs:
     - name: Pull change from GitHub
       run: |
         cd /var/www/mySites/
+        git fetch origin
         git pull
