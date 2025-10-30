@@ -3,8 +3,8 @@ body{
     background-image: url('image/bg.gif');
 	background-color: lightblue;
 	background-size: cover;
-	/*background-attachment: fixed;*/
-	height: 500px;
+	height: 480px;
+	width: 270px;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
