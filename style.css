@@ -22,8 +22,8 @@
 	padding: 10px;
 	border-radius: 5px;
 }
-
-nav{
+/*
+nav {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 10px;
 	position: fixed;
@@ -32,8 +32,22 @@ nav{
 	z-index: 1000;
 	view-transition-name: highlight;
 }
+*/
+nav {
+  z-index:9;
+  grid-column-gap:.5em;
+  grid-row-gap:.5em;
+  pointer-events:all;
+  flex-flow:column;
+  display:flex;
+  position:absolute;
+  top:50%;
+  left:.5em;
+  transform:translateY(-50%)
+}
 
 .active {
 	background-color: #4CAF50;
 	color: white;
+
 }
