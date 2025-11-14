@@ -34,16 +34,10 @@ nav {
 }
 */
 nav {
-  z-index:9;
-  grid-column-gap:.5em;
-  grid-row-gap:.5em;
-  pointer-events:all;
-  flex-flow:column;
+  flex-flow:row;
   display:flex;
   position:fixed;
   top:0px;
-  left:.5em;
-  transform:translateY(-50%)
 }
 
 .active {
