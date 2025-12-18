@@ -32,7 +32,7 @@ const clickButton = document.getElementById("clickButton");
 const countDisplay = document.getElementById("countDisplay");
 
 // Add a click event listener to the button
-clickButton.addEventListener("click", () => {
+clickButton.addEventListener("click",  async  function (event) {
     // Increment the count variable
     count++;
 
