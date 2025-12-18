@@ -22,3 +22,20 @@ navbar.addEventListener('click', async  function (event) {
   
   document.startViewTransition(() => setActiveElement(event.target));
 });
+
+// Compteur
+// Initialize the counter variable
+let count = 0;
+
+// Select the button and the display elements from the DOM
+const clickButton = document.getElementById("clickButton");
+const countDisplay = document.getElementById("countDisplay");
+
+// Add a click event listener to the button
+clickButton.addEventListener("click", () => {
+    // Increment the count variable
+    count++;
+
+    // Update the text content of the display element
+    countDisplay.textContent = count;
+});
