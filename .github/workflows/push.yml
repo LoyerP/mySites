@@ -3,6 +3,7 @@ name: Push commit to server
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch:
 jobs:
   Commit:
     runs-on: self-hosted
